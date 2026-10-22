@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fafafa;
+  --foreground: #090d16;
+  --brand-electric: #0066ff;
+}
+
+html,
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Linear/Stripe style subtle grid backgrounds */
+.bg-grid-pattern {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+}
+
+.bg-dot-pattern {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-gradient-radial-blue {
+  background: radial-gradient(circle at 50% 0%, rgba(0, 102, 255, 0.08) 0%, transparent 70%);
+}
+
+/* Glassmorphism */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+}
+
+.glass-card-dark {
+  background: rgba(10, 15, 29, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Subtle glow badge */
+.badge-glow {
+  box-shadow: 0 0 15px -2px rgba(0, 102, 255, 0.35);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Flow connector pulse */
+@keyframes flowDash {
+  to {
+    stroke-dashoffset: -40;
+  }
+}
+
+.animate-flow-dash {
+  stroke-dasharray: 6 6;
+  animation: flowDash 1.2s linear infinite;
+}
