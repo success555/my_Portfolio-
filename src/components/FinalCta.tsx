@@ -81,7 +81,7 @@ export function FinalCta({ defaultService }: { defaultService?: string }) {
                 {/* WhatsApp Action Button */}
                 <div>
                   <a
-                    href="https://wa.me/2348000000000?text=Hi%20Success%20Automations!%20I'd%20like%20to%20map%20out%203%20automations%20for%20my%20business."
+                    href="https://wa.me/2349069118159?text=Hi%20Success%20Automations!%20I'd%20like%20to%20map%20out%203%20automations%20for%20my%20business."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex w-full items-center justify-center gap-2.5 sm:gap-3 px-4 sm:px-6 py-3.5 sm:py-4 rounded-xl font-bold text-xs sm:text-sm bg-emerald-500 hover:bg-emerald-600 text-white shadow-lg shadow-emerald-500/20 transition-all duration-300 group"
@@ -91,7 +91,7 @@ export function FinalCta({ defaultService }: { defaultService?: string }) {
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform shrink-0" />
                   </a>
                   <span className="text-[11px] text-slate-400 block text-center mt-2">
-                    Available for clients in 🇳🇬 Nigeria, 🇬🇧 UK &amp; 🇺🇸 US
+                    Direct: +234 906 911 8159 &bull; Clients in 🇳🇬 Nigeria, 🇬🇧 UK &amp; 🇺🇸 US
                   </span>
                 </div>
 

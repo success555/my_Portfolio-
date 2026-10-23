@@ -84,13 +84,13 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="https://wa.me/2348000000000?text=Hi%20Success%20Automations!"
+                  href="https://wa.me/2349069118159?text=Hi%20Success%20Automations!"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-emerald-400 flex items-center gap-1.5 transition-colors"
                 >
-                  <MessageCircle className="w-3.5 h-3.5" />
-                  <span>WhatsApp Chat</span>
+                  <MessageCircle className="w-3.5 h-3.5 text-emerald-500" />
+                  <span>WhatsApp: +234 906 911 8159</span>
                 </a>
               </li>
               <li>

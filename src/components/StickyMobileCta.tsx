@@ -28,11 +28,11 @@ export function StickyMobileCta({ onOpenAudit }: { onOpenAudit: () => void }) {
     >
       <div className="flex items-center gap-2 max-w-md mx-auto">
         <a
-          href="https://wa.me/2348000000000?text=Hi%20Success%20Automations!%20I%20want%20to%20automate%20my%20business%20workflows."
+          href="https://wa.me/2349069118159?text=Hi%20Success%20Automations!%20I%20want%20to%20automate%20my%20business%20workflows."
           target="_blank"
           rel="noopener noreferrer"
           className="p-3 rounded-xl bg-emerald-50 text-emerald-600 border border-emerald-200 hover:bg-emerald-100 transition-colors shrink-0"
-          title="Direct WhatsApp"
+          title="Direct WhatsApp (+234 906 911 8159)"
         >
           <MessageCircle className="w-5 h-5 fill-current" />
         </a>

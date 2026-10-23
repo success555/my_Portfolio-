@@ -50,11 +50,11 @@ export function Navbar({ onOpenAudit }: { onOpenAudit: () => void }) {
           {/* Action Buttons */}
           <div className="hidden sm:flex items-center gap-3">
             <a
-              href="https://wa.me/2348000000000?text=Hi%20Success%20Automations!%20I%20want%20to%20automate%20my%20business%20workflows."
+              href="https://wa.me/2349069118159?text=Hi%20Success%20Automations!%20I%20want%20to%20automate%20my%20business%20workflows."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-3.5 py-2 text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors"
-              title="Chat on WhatsApp"
+              title="Chat on WhatsApp (+234 906 911 8159)"
             >
               <MessageCircle className="w-4 h-4 text-emerald-600" />
               <span>WhatsApp</span>
@@ -142,13 +142,13 @@ export function Navbar({ onOpenAudit }: { onOpenAudit: () => void }) {
               <ArrowRight className="w-4 h-4" />
             </button>
             <a
-              href="https://wa.me/2348000000000?text=Hi%20Success%20Automations!%20I%20want%20to%20automate%20my%20business%20workflows."
+              href="https://wa.me/2349069118159?text=Hi%20Success%20Automations!%20I%20want%20to%20automate%20my%20business%20workflows."
               target="_blank"
               rel="noopener noreferrer"
               className="w-full flex items-center justify-center gap-2 py-2.5 text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-xl"
             >
               <MessageCircle className="w-4 h-4 text-emerald-600" />
-              Chat on WhatsApp
+              Chat on WhatsApp (+234 906 911 8159)
             </a>
           </div>
         </div>
